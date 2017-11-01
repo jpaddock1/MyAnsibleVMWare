@@ -1,0 +1,6 @@
+---
+
+- hosts: mywebservers
+  gather_facts: false
+  tasks:
+- ping:
